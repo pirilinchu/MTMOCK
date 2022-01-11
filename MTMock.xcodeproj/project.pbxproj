@@ -16,6 +16,22 @@
 		358191E22746C69600907112 /* MTMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358191E12746C69600907112 /* MTMockTests.swift */; };
 		358191EC2746C69600907112 /* MTMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358191EB2746C69600907112 /* MTMockUITests.swift */; };
 		358191EE2746C69600907112 /* MTMockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358191ED2746C69600907112 /* MTMockUITestsLaunchTests.swift */; };
+		358192012746C73100907112 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358191FF2746C73100907112 /* OrderTableViewCell.swift */; };
+		358192022746C73200907112 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 358192002746C73100907112 /* OrderTableViewCell.xib */; };
+		358192052746CAF100907112 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192042746CAF100907112 /* Order.swift */; };
+		358192082746E91C00907112 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192072746E91C00907112 /* OrderManager.swift */; };
+		358192102747312B00907112 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3581920F2747312B00907112 /* WidgetKit.framework */; };
+		358192122747312B00907112 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358192112747312B00907112 /* SwiftUI.framework */; };
+		358192152747312B00907112 /* MTMockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192142747312B00907112 /* MTMockWidget.swift */; };
+		358192172747312F00907112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358192162747312F00907112 /* Assets.xcassets */; };
+		3581921B2747312F00907112 /* MTMockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3581920D2747312B00907112 /* MTMockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		358192222747326000907112 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192042746CAF100907112 /* Order.swift */; };
+		358192232747326300907112 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192072746E91C00907112 /* OrderManager.swift */; };
+		358192262747365A00907112 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192252747365A00907112 /* SmallView.swift */; };
+		3581922A2747453400907112 /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192292747453400907112 /* MediumView.swift */; };
+		3581922C2747472C00907112 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581922B2747472C00907112 /* Provider.swift */; };
+		3581922D2747475500907112 /* OrderEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358192202747325000907112 /* OrderEntry.swift */; };
+		3581922F27474E5200907112 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3581922E27474E5200907112 /* LargeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +49,28 @@
 			remoteGlobalIDString = 358191C62746C69400907112;
 			remoteInfo = MTMock;
 		};
+		358192192747312F00907112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358191BF2746C69400907112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3581920C2747312B00907112;
+			remoteInfo = MTMockWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3581921F2747312F00907112 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3581921B2747312F00907112 /* MTMockWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		358191C72746C69400907112 /* MTMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +86,21 @@
 		358191E72746C69600907112 /* MTMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		358191EB2746C69600907112 /* MTMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMockUITests.swift; sourceTree = "<group>"; };
 		358191ED2746C69600907112 /* MTMockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		358191FF2746C73100907112 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		358192002746C73100907112 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		358192042746CAF100907112 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		358192072746E91C00907112 /* OrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		3581920D2747312B00907112 /* MTMockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MTMockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3581920F2747312B00907112 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		358192112747312B00907112 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		358192142747312B00907112 /* MTMockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMockWidget.swift; sourceTree = "<group>"; };
+		358192162747312F00907112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358192182747312F00907112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358192202747325000907112 /* OrderEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntry.swift; sourceTree = "<group>"; };
+		358192252747365A00907112 /* SmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
+		358192292747453400907112 /* MediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
+		3581922B2747472C00907112 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		3581922E27474E5200907112 /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +125,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3581920A2747312B00907112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358192122747312B00907112 /* SwiftUI.framework in Frameworks */,
+				358192102747312B00907112 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +143,8 @@
 				358191C92746C69400907112 /* MTMock */,
 				358191E02746C69600907112 /* MTMockTests */,
 				358191EA2746C69600907112 /* MTMockUITests */,
+				358192132747312B00907112 /* MTMockWidget */,
+				3581920E2747312B00907112 /* Frameworks */,
 				358191C82746C69400907112 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +155,7 @@
 				358191C72746C69400907112 /* MTMock.app */,
 				358191DD2746C69600907112 /* MTMockTests.xctest */,
 				358191E72746C69600907112 /* MTMockUITests.xctest */,
+				3581920D2747312B00907112 /* MTMockWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +163,9 @@
 		358191C92746C69400907112 /* MTMock */ = {
 			isa = PBXGroup;
 			children = (
+				358192062746E90F00907112 /* Managers */,
+				358192032746CADE00907112 /* Models */,
+				358191FA2746C6AA00907112 /* UI */,
 				358191CA2746C69400907112 /* AppDelegate.swift */,
 				358191CC2746C69400907112 /* SceneDelegate.swift */,
 				358191CE2746C69400907112 /* ViewController.swift */,
@@ -127,6 +194,63 @@
 			path = MTMockUITests;
 			sourceTree = "<group>";
 		};
+		358191FA2746C6AA00907112 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				358191FF2746C73100907112 /* OrderTableViewCell.swift */,
+				358192002746C73100907112 /* OrderTableViewCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		358192032746CADE00907112 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				358192042746CAF100907112 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		358192062746E90F00907112 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				358192072746E91C00907112 /* OrderManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3581920E2747312B00907112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3581920F2747312B00907112 /* WidgetKit.framework */,
+				358192112747312B00907112 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		358192132747312B00907112 /* MTMockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				358192242747360100907112 /* WidgetInterface */,
+				358192142747312B00907112 /* MTMockWidget.swift */,
+				358192162747312F00907112 /* Assets.xcassets */,
+				358192182747312F00907112 /* Info.plist */,
+				358192202747325000907112 /* OrderEntry.swift */,
+				3581922B2747472C00907112 /* Provider.swift */,
+			);
+			path = MTMockWidget;
+			sourceTree = "<group>";
+		};
+		358192242747360100907112 /* WidgetInterface */ = {
+			isa = PBXGroup;
+			children = (
+				358192252747365A00907112 /* SmallView.swift */,
+				358192292747453400907112 /* MediumView.swift */,
+				3581922E27474E5200907112 /* LargeView.swift */,
+			);
+			path = WidgetInterface;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +261,12 @@
 				358191C32746C69400907112 /* Sources */,
 				358191C42746C69400907112 /* Frameworks */,
 				358191C52746C69400907112 /* Resources */,
+				3581921F2747312F00907112 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3581921A2747312F00907112 /* PBXTargetDependency */,
 			);
 			name = MTMock;
 			productName = MTMock;
@@ -183,6 +309,23 @@
 			productReference = 358191E72746C69600907112 /* MTMockUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3581920C2747312B00907112 /* MTMockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3581921C2747312F00907112 /* Build configuration list for PBXNativeTarget "MTMockWidgetExtension" */;
+			buildPhases = (
+				358192092747312B00907112 /* Sources */,
+				3581920A2747312B00907112 /* Frameworks */,
+				3581920B2747312B00907112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTMockWidgetExtension;
+			productName = MTMockWidgetExtension;
+			productReference = 3581920D2747312B00907112 /* MTMockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +347,9 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 358191C62746C69400907112;
 					};
+					3581920C2747312B00907112 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = 358191C22746C69400907112 /* Build configuration list for PBXProject "MTMock" */;
@@ -222,6 +368,7 @@
 				358191C62746C69400907112 /* MTMock */,
 				358191DC2746C69600907112 /* MTMockTests */,
 				358191E62746C69600907112 /* MTMockUITests */,
+				3581920C2747312B00907112 /* MTMockWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				358191D72746C69600907112 /* LaunchScreen.storyboard in Resources */,
+				358192022746C73200907112 /* OrderTableViewCell.xib in Resources */,
 				358191D42746C69600907112 /* Assets.xcassets in Resources */,
 				358191D22746C69400907112 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +399,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3581920B2747312B00907112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358192172747312F00907112 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,7 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358192082746E91C00907112 /* OrderManager.swift in Sources */,
 				358191CF2746C69400907112 /* ViewController.swift in Sources */,
+				358192012746C73100907112 /* OrderTableViewCell.swift in Sources */,
+				358192052746CAF100907112 /* Order.swift in Sources */,
 				358191CB2746C69400907112 /* AppDelegate.swift in Sources */,
 				358191CD2746C69400907112 /* SceneDelegate.swift in Sources */,
 			);
@@ -281,6 +440,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		358192092747312B00907112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3581922F27474E5200907112 /* LargeView.swift in Sources */,
+				3581922A2747453400907112 /* MediumView.swift in Sources */,
+				358192232747326300907112 /* OrderManager.swift in Sources */,
+				358192222747326000907112 /* Order.swift in Sources */,
+				358192262747365A00907112 /* SmallView.swift in Sources */,
+				3581922C2747472C00907112 /* Provider.swift in Sources */,
+				358192152747312B00907112 /* MTMockWidget.swift in Sources */,
+				3581922D2747475500907112 /* OrderEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +467,11 @@
 			isa = PBXTargetDependency;
 			target = 358191C62746C69400907112 /* MTMock */;
 			targetProxy = 358191E82746C69600907112 /* PBXContainerItemProxy */;
+		};
+		3581921A2747312F00907112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3581920C2747312B00907112 /* MTMockWidgetExtension */;
+			targetProxy = 358192192747312F00907112 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,6 +614,7 @@
 		358191F22746C69600907112 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +642,7 @@
 		358191F32746C69600907112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +759,58 @@
 			};
 			name = Release;
 		};
+		3581921D2747312F00907112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MTMockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MTMockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiago.MTMock.MTMockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3581921E2747312F00907112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MTMockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MTMockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiago.MTMock.MTMockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,6 +846,15 @@
 			buildConfigurations = (
 				358191F82746C69600907112 /* Debug */,
 				358191F92746C69600907112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3581921C2747312F00907112 /* Build configuration list for PBXNativeTarget "MTMockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3581921D2747312F00907112 /* Debug */,
+				3581921E2747312F00907112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
